@@ -1,0 +1,1 @@
+# openapi-jaxrs-spec-parent
