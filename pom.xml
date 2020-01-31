@@ -28,7 +28,7 @@
             <activation>
                 <file>
                     <exists>
-                        src/main/resources/META-INF/openapi.yml
+                        src/main/resources/META-INF/openapi.yaml
                     </exists>
                 </file>
             </activation>
@@ -61,7 +61,7 @@
                                     <generateModels>true</generateModels>
                                     <generateSupportingFiles>false</generateSupportingFiles>
                                     <generatorName>jaxrs-spec</generatorName>
-                                    <inputSpec>${project.basedir}/src/main/resources/META-INF/openapi.yml</inputSpec>
+                                    <inputSpec>${project.basedir}/src/main/resources/META-INF/openapi.yaml</inputSpec>
                                     <modelPackage>${project.groupId}.api.model</modelPackage>
                                     <output>${project.basedir}/src/main/generated-sources</output>
                                     <verbose>false</verbose>
